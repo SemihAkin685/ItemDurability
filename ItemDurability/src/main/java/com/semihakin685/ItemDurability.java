@@ -25,7 +25,7 @@ public class ItemDurability extends PluginBase implements Listener {
             int damage = item.getDamage();
             int remaining = durability - damage;
 
-            player.sendPopup("§aDayanıklılık: §c" + remaining);
+            player.sendPopup("§aDurability: §c" + remaining);
         }
     }
 }
