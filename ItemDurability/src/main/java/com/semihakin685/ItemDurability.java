@@ -11,7 +11,7 @@ public class ItemDurability extends PluginBase implements Listener {
 
     @Override
     public void onEnable() {
-        getLogger().info("ItemDurability aktif.");
+        getLogger().info("ItemDurability active.");
         getServer().getPluginManager().registerEvents(this, this);
     }
 
